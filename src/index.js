@@ -1,20 +1,19 @@
 //Desafio Classificador de nível de Herói
 let nomeDoHeroi = "Marlon"
-let quantidadeDeXp = ""
-let xp = 122
+let quantidadeDeXp = 7500
 
-if (xp < 1.000){
+if (quantidadeDeXp<=1000){
     console.log ("O Herói de nome " + nomeDoHeroi + " está no nível de " + quantidadeDeXp + " Ferro")
-} else if ( xp >=1.001 || xp <=2.000) {
+} else if ( quantidadeDeXp >1001 && quantidadeDeXp <= 2000) {
     console.log ("O Herói de nome " + nomeDoHeroi + " está no nível de " + quantidadeDeXp + " Bronze")
-}else if (xp >2.001 && xp <5.000){
+}else if (quantidadeDeXp >2001 && quantidadeDeXp<= 5000){
     console.log ("O Herói de nome " + nomeDoHeroi + " está no nível de " + quantidadeDeXp + " Prata")
-}else if (xp >5.001 && xp <7.000){
+}else if (quantidadeDeXp >5001 && quantidadeDeXp<7000){
     console.log ("O Herói de nome " + nomeDoHeroi + " está no nível de " + quantidadeDeXp + " Ouro")
-}else if (xp >7.001 && xp <8.000){
+}else if (quantidadeDeXp >7001 && quantidadeDeXp<8000){
     console.log ("O Herói de nome " + nomeDoHeroi + " está no nível de " + quantidadeDeXp + " Platino")
-}else if (xp >8.001 && xp <9.000){
+}else if (quantidadeDeXp >8001 && quantidadeDeXp<9000){
     console.log (" O Herói de nome " + nomeDoHeroi + " está no nível de " + quantidadeDeXp + " Acendente")
-}else if (xp >9.001 && xp < 10.000){
+}else if (quantidadeDeXp< 10000){
     console.log (" O Herói de nome " + nomeDoHeroi + " está no nível de " + quantidadeDeXp + " Imortal")
 }else {console.log ("O Herói de nome " + nomeDoHeroi + " está no nível de " + quantidadeDeXp + " Radiante ")}
