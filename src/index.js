@@ -1,6 +1,6 @@
 //Desafio Classificador de nível de Herói
 let nomeDoHeroi = "Marlon"
-let quantidadeDeXp = 7500
+let quantidadeDeXp = 10001
 
 if (quantidadeDeXp<=1000){
     console.log ("O Herói de nome " + nomeDoHeroi + " está no nível de " + quantidadeDeXp + " Ferro")
@@ -17,3 +17,5 @@ if (quantidadeDeXp<=1000){
 }else if (quantidadeDeXp< 10000){
     console.log (" O Herói de nome " + nomeDoHeroi + " está no nível de " + quantidadeDeXp + " Imortal")
 }else {console.log ("O Herói de nome " + nomeDoHeroi + " está no nível de " + quantidadeDeXp + " Radiante ")}
+;
+
